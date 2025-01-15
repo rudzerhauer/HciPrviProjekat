@@ -9,12 +9,12 @@ WpfApp1
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\nikola\Desktop\HcI\WpfApp1\App.xaml
-11407045341
 
-14-1468079302
+6845549678
+
+20-834573032
 2022028838021
-MainWindow.xaml;
+Gui\AdminWindow.xaml;Gui\App.xaml;Gui\LoginWindow.xaml;Gui\MainWindow.xaml;Gui\ManagerWindow.xaml;Gui\WaiterWindow.xaml;
 
 False
 

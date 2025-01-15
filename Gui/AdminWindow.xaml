@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApp1.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Dashboard" Height="350" Width="525">
+    <Grid>
+        <!-- UI elements for Admin role -->
+        <TextBlock Text="Welcome, Admin!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>

@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApp1.Database;
 
 namespace WpfApp1
 {
-
-    public partial class MainWindow : Window
+    /// <summary>
+    /// Interaction logic for ManagerWindow.xaml
+    /// </summary>
+    public partial class ManagerWindow : Window
     {
-        bool running = false;
-        public MainWindow()
+        public ManagerWindow()
         {
             InitializeComponent();
-
-            var employeeService = new EmployeeService();
-            var employees = employeeService.GetAllEmployees();
-            EmployeeListBox.ItemsSource = employees;
         }
-
-
-
     }
 }
